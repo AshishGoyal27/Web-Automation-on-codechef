@@ -3,7 +3,7 @@ from getpass import getpass
 browser = webdriver.Chrome()
 browser.get("https://www.codechef.com")
 username_element = browser.find_element_by_id("edit-name")
-username_element.send_keys("ashish_2710")
+username_element.send_keys("user_name")
 password_element = browser.find_element_by_id("edit-pass")
 password_element.send_keys(getpass("Enter password :"))
 
